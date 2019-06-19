@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Tem(C) {
+        this.C=C
+        this.F=this.C*18000+32;
+        this.Kenvin=this.C+273.15;
+        
+    }
+  let Temperature= new Tem(parseInt(prompt("nhap do C ")))
+    alert("nhiet do F la "+Temperature.F+" nhiet do Kenvin la "+Temperature.Kenvin)
+</script>
+</body>
+</html>
